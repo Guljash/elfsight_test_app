@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/elfsight_test_app/static/css/main.4dfd35f3.chunk.css",
+    "main.js": "/elfsight_test_app/static/js/main.2fc42d1f.chunk.js",
+    "main.js.map": "/elfsight_test_app/static/js/main.2fc42d1f.chunk.js.map",
+    "runtime-main.js": "/elfsight_test_app/static/js/runtime-main.4e898b65.js",
+    "runtime-main.js.map": "/elfsight_test_app/static/js/runtime-main.4e898b65.js.map",
+    "static/js/2.d80950cf.chunk.js": "/elfsight_test_app/static/js/2.d80950cf.chunk.js",
+    "static/js/2.d80950cf.chunk.js.map": "/elfsight_test_app/static/js/2.d80950cf.chunk.js.map",
+    "static/js/3.81ebabad.chunk.js": "/elfsight_test_app/static/js/3.81ebabad.chunk.js",
+    "static/js/3.81ebabad.chunk.js.map": "/elfsight_test_app/static/js/3.81ebabad.chunk.js.map",
+    "index.html": "/elfsight_test_app/index.html",
+    "static/css/main.4dfd35f3.chunk.css.map": "/elfsight_test_app/static/css/main.4dfd35f3.chunk.css.map",
+    "static/js/2.d80950cf.chunk.js.LICENSE.txt": "/elfsight_test_app/static/js/2.d80950cf.chunk.js.LICENSE.txt",
+    "static/media/Photos.module.css": "/elfsight_test_app/static/media/right.a2d11487.svg",
+    "static/media/loader.e88c5d6a.svg": "/elfsight_test_app/static/media/loader.e88c5d6a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e898b65.js",
+    "static/js/2.d80950cf.chunk.js",
+    "static/css/main.4dfd35f3.chunk.css",
+    "static/js/main.2fc42d1f.chunk.js"
+  ]
+}
