@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import AutorsContainer from './components/Autors/AutorsContainer';
+import AlbumsContainer from './components/Albums/AlbumsContainer';
+import { BrowserRouter, Route } from "react-router-dom"
+import PhotosContainer from './components/Photos/PhotosContainer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div>
+        <div className="app-wrapper">
+          <Route exact path="/">
+            <AutorsContainer />
+            <AlbumsContainer />
+          </Route>
+        </div>
+        <Route exact path="/:id" component={PhotosContainer} />
+      </div>
+    </BrowserRouter>
   );
 }
 
