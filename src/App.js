@@ -6,7 +6,7 @@ import PhotosContainer from './components/Photos/PhotosContainer';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div>
         <div className="app-wrapper">
           <Route exact path="/">
